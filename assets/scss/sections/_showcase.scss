@@ -1,0 +1,58 @@
+@import '../cores/buttons';
+
+.btn-theme-new{
+    @extend .btn-theme;
+    max-width: 150px;
+    padding: 20px;
+
+}
+
+
+    
+    
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    .showcase-text {
+
+        text-align: center;
+
+        h2 {
+          font-size: 65px;
+          font-weight: 800;
+        }
+        p {
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 20px;
+
+        }
+    }
+    
+    .showcase-left{
+        max-width: 25%;
+        margin-left: 3rem;
+        
+    }
+
+    .showcase-right{
+        max-width: 25%;
+        margin-right: 3rem;
+    }            
+
+}
+
+.Showcase .__img-left{
+    .__showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+   
+}
+
+}
+
+
